@@ -11,16 +11,16 @@ import { getFeaturedPosts, getProjectPosts } from '../utils/posts'
 const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, projects}) => {
   return (
     <>
-      <section 
+      <section
         className='flex items-center justify-center h-[85vh]'
         >
         <div className='flex flex-row items-center'>
           <div className="m-4 sm:ml-4">
-            <h1 className="text-3xl font-bold sm:text-6xl">
-              Hello world, this is my portfolio
+            <h1 className="text-3xl font-mono font-bold sm:text-6xl">
+              Roshan Swain
             </h1>
-            <p className="pt-2 text-base">
-              Where I show you my expertise and thoughts as I build
+            <p className="pt-2 font-mono text-base">
+              Software Engineer
             </p>
           </div>
         </div>
@@ -39,14 +39,14 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
                   About Me
               </h2>
             <div className="mt-4 ">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              </p>  
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
               <p className='mt-2'>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
               </p>
             </div>
           </div>
-          
+
         </div>
       </section>
 
@@ -57,8 +57,8 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
             </a>
           </Link>
           <div className="mt-4 w-96 sm:w-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            </p>  
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
             </p>
@@ -77,8 +77,8 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
             </a>
           </Link>
           <div className="mt-4 w-96 sm:w-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            </p>  
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
             <p className='mt-2'>
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
             </p>

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'arial';
+  font-family: 'Proxima Nova, system-ui, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('arial'), url(/fonts/montserrat-font/MontserratRegular-RpK6l.otf)
+  src: local('Proxima Nova'), url(/fonts/montserrat-font/MontserratRegular-RpK6l.otf)
 }
 
 html,

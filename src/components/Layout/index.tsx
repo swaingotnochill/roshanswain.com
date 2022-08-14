@@ -16,23 +16,35 @@ const Layout = (props: any) => {
           <div className="flex justify-between space-x-7">
             <Link href="/">
               <a className="mt-1 rounded flex items-center px-2 py-4 className='rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-secondary hover:no-underline'">
-                <Image src="/assets/eggo.png" alt="an eggo" width={32} height={32} />
-                <span className="ml-2 text-lg font-semibold text-gray-900"
-                >My Name</span
+                <Image src="/assets/logo.png" alt="an eggo" width={32} height={32} />
+                <span className="ml-2 text-lg font-mono font-semibold text-gray-900"
+                >Roshan Swain</span
                 >
               </a>
             </Link>
             <div className="items-center hidden space-x-1 md:flex">
               <Link href="/blog">
                 <a
-                  className="px-2 py-1 font-semibold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
+                  className="px-2 py-1 font-mono font-bold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
                 >Blog</a
                 >
               </Link>
               <Link href="/projects">
                 <a
-                  className="px-2 py-1 font-semibold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
+                  className="px-2 py-1 font-mono font-bold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
                 >Projects</a
+                >
+              </Link>
+              <Link href="/resume">
+                <a
+                  className="px-2 py-1 font-mono font-bold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
+                >Resume</a
+                >
+              </Link>
+              <Link href="/about">
+                <a
+                  className="px-2 py-1 font-mono font-bold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
+                >About</a
                 >
               </Link>
             </div>
@@ -78,9 +90,9 @@ const Layout = (props: any) => {
                 <div className="grid grid-cols-1 gap-y-12 sm:col-span-2 sm:grid-cols-2 sm:gap-x-8">
                   <div>
                     <h3 className="text-sm font-medium text-gray-900">Links</h3>
-                    <div role="list" className="flex flex-row gap-2 mt-6 align-middle">            
+                    <div role="list" className="flex flex-row gap-2 mt-6 align-middle">
                       <a
-                        href="https://github.com/eggheadio/portfolio-template-and-challenge" 
+                        href="https://github.com/eggheadio/portfolio-template-and-challenge"
                         className="rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
                       >
                         <Image
@@ -90,7 +102,7 @@ const Layout = (props: any) => {
                           height={20}
                         />
                       </a>
-                      <a 
+                      <a
                         href="https://twitter.com/eggheadio"
                         className="rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
                       >
@@ -101,7 +113,7 @@ const Layout = (props: any) => {
                           height={20}
                         />
                       </a>
-                      <a 
+                      <a
                         href="https://www.linkedin.com/company/egghead.io"
                         className="rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
                       >

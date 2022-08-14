@@ -12,7 +12,7 @@ module.exports = {
         'secondary': 'gray'
       },
       fontFamily: {
-        sans: ['arial', ...defaultTheme.fontFamily.sans],
+        sans: ['Proxima Nova', ...defaultTheme.fontFamily.sans],
         serif: ['Lora', 'Georgia', 'times', 'serif'],
       }
     },
