@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 import type { PostType, ProjectType } from '../../types/post'
 import PostCard from '../components/PostCard'
 import ProjectCard from '../components/ProjectCard'
@@ -11,6 +12,11 @@ import { getFeaturedPosts, getProjectPosts } from '../utils/posts'
 const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, projects}) => {
   return (
     <>
+    <Head>
+      <title>Roshan Swain</title>
+      <meta name="description" content="Roshan Swain's personal website" />
+    </Head>
+
       <section
         className='flex items-center justify-center h-[85vh]'
         >
