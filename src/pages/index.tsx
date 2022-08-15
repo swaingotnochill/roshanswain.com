@@ -29,7 +29,7 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
       <section className='container p-4 mx-auto my-10 sm:p-0 sm:max-w-4xl w-fit' >
         <div className='flex flex-col justify-center gap-4 mx-auto sm:flex-row w-fit'>
         <div className='flex flex-col justify-between'>
-            <Image className="rounded-lg" height={768} width={768} src="/assets/myphoto.png" />
+            <Image className="rounded-lg" height={768} width={768} src="/assets/myphoto.png"  alt='my photo'/>
             <p className='mt-2 text-sm font-mono text-gray-400'>
               Selfie from my first year of engineering &#128521;
             </p>
@@ -39,7 +39,7 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
                   About Me
               </h2>
             <div className="mt-4 font-mono">
-              <p>Hi ! I'm Roshan Swain, a software engineer currently working at <a className=' text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.mathworks.com/'>MathWorks.</a>
+              <p>Hi ! I&apos;m Roshan Swain, a software engineer currently working at <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.mathworks.com/'>MathWorks.</a>
               </p>
               <p className='mt-4'>
                 I love working on different technologies. I have a strong interest in Web Applications and Machine Learning.
