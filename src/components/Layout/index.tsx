@@ -16,10 +16,9 @@ const Layout = (props: any) => {
           <div className="flex justify-between space-x-7">
             <Link href="/">
               <a className="mt-1 rounded flex items-center px-2 py-4 className='rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-secondary hover:no-underline'">
-                <Image src="/assets/logo.png" alt="an eggo" width={32} height={32} />
+                <Image src="/assets/logo.png" alt="logo" width={32} height={32} />
                 <span className="ml-2 text-lg font-mono font-semibold text-gray-900"
-                >Roshan Swain</span
-                >
+                >Roshan Swain</span>
               </a>
             </Link>
             <div className="items-center hidden space-x-1 md:flex">
@@ -50,7 +49,7 @@ const Layout = (props: any) => {
             </div>
             <Menu className="" >
               <MenuButton className="self-center block text-lg text-gray-700 md:hidden h-fit">
-                Links <span aria-hidden>▾</span>
+                 <span aria-hidden>▾</span>
               </MenuButton>
               <MenuList className="absolute z-10 grid max-w-xs px-5 py-4 mt-1 overflow-hidden transform bg-white rounded shadow-lg -left-8 -translate-x-1/3 w-36 sm:px-0 ring-1 ring-black ring-opacity-5 sm:p-6">
                 <MenuLink
@@ -82,7 +81,7 @@ const Layout = (props: any) => {
             <div className="grid grid-cols-1 md:grid-cols-12 md:grid-flow-col md:gap-x-8 md:gap-y-16 md:auto-rows-min">
               {/* Image section */}
               <div className="col-span-1 md:col-span-2 lg:row-start-1 lg:col-start-1">
-                <Image src="/assets/eggo.png" alt="an eggo" width={32} height={32} />
+                <Image src="/assets/logo.png" alt="an eggo" width={32} height={32} />
               </div>
 
               {/* Sitemap sections */}
@@ -97,7 +96,7 @@ const Layout = (props: any) => {
                       >
                         <Image
                           src="/assets/github.svg"
-                          alt="an eggo"
+                          alt="github logo"
                           width={20}
                           height={20}
                         />
@@ -108,7 +107,7 @@ const Layout = (props: any) => {
                       >
                         <Image
                           src="/assets/twitter.svg"
-                          alt="an eggo"
+                          alt="twitter logo"
                           width={20}
                           height={20}
                         />

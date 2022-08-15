@@ -17,7 +17,7 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
         <div className='flex flex-row items-center'>
           <div className="m-4 sm:ml-4">
             <h1 className="text-3xl font-mono font-bold sm:text-6xl">
-              Roshan Swain
+              Roshan Swain&#128075;
             </h1>
             <p className="pt-2 font-mono text-base">
               Software Engineer
@@ -29,20 +29,20 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
       <section className='container p-4 mx-auto my-10 sm:p-0 sm:max-w-4xl w-fit' >
         <div className='flex flex-col justify-center gap-4 mx-auto sm:flex-row w-fit'>
         <div className='flex flex-col justify-between'>
-            <Image className="rounded-lg" height={768} width={768} src="/assets/erick-butler-xWGoK1tqxyo-unsplash.jpeg" />
-            <p className='mt-2 text-sm text-gray-400'>
-              Photo by  <a className='rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline' href="https://unsplash.com/@erickwalterbutler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erick Butler</a> on <a className='rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline' href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            <Image className="rounded-lg" height={768} width={768} src="/assets/myphoto.png" />
+            <p className='mt-2 text-sm font-mono text-gray-400'>
+              Selfie from my first year of engineering &#128521;
             </p>
           </div>
           <div className='sm:ml-4'>
-              <h2 className="text-3xl font-bold transition-all duration-300 rounded cursor-pointer w-fit hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline">
+              <h2 className="text-3xl font-mono font-bold transition-all duration-300 rounded cursor-pointer w-fit hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline">
                   About Me
               </h2>
-            <div className="mt-4 ">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <div className="mt-4 font-mono">
+              <p>Hi ! I'm Roshan Swain, a software engineer currently working at <a className=' text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.mathworks.com/'>MathWorks.</a>
               </p>
-              <p className='mt-2'>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
+              <p className='mt-4'>
+                I love working on different technologies. I have a strong interest in Web Applications and Machine Learning.
               </p>
             </div>
           </div>
@@ -52,15 +52,13 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
 
       <section className='container p-4 mx-auto mt-20 sm:p-0 sm:max-w-4xl w-fit' >
           <Link  href="/projects">
-            <a className="text-3xl font-bold transition-all duration-300 rounded cursor-pointer w-fit hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline">
+            <a className="text-3xl font-bold font-mono transition-all duration-300 rounded cursor-pointer w-fit hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline">
               Projects
             </a>
           </Link>
-          <div className="mt-4 w-96 sm:w-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+          <div className="mt-4 font-mono w-96 sm:w-auto">
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
+              Here are some of the projects I have worked on.
             </p>
           </div>
           <div className='grid grid-cols-1 gap-4 mx-auto mt-6 md:grid-cols-2 w-fit'>
@@ -78,9 +76,6 @@ const Home: NextPage<{posts: PostType[], projects: ProjectType[]}> = ({posts, pr
           </Link>
           <div className="mt-4 w-96 sm:w-auto">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p className='mt-2'>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
             </p>
           </div>
           <div>
